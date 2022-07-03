@@ -9,7 +9,7 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/abdulaziz-m5u/laravel-booking-app.git project-name
+  git clone https://github.com/ivandraaa/skuycation
 ```
 
 Go to the project directory

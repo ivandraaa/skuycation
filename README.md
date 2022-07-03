@@ -34,5 +34,5 @@ Go to the project directory
 
 #### Login
 
--   email = admin@example.com
+-   email = admin@gmail.com
 -   password = 123

@@ -14,7 +14,7 @@
                     <div class="row" style="margin-top: 5px;">
                         <div class="col-12 d-flex " style="column-gap: 2rem; align-items: center;">
                             <div class="form-group">
-                                <label for="time_from">{{ __('Time From') }}</label>
+                                <label for="time_from">{{ __('Waktu Check In') }}</label>
                                 <input type="text" class="form-control datetime" id="time_from" name="time_from" value="{{ old('time_from') }}"  required/>
                                 <p class="help-block"></p>
                                 @if($errors->has('time_from'))

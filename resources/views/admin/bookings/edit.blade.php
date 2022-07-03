@@ -44,7 +44,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="time_from">{{ __('Time From') }}</label>
+                        <label for="time_from">{{ __('Waktu Check In') }}</label>
                         <input type="text" class="form-control datetimepicker" id="time_from" name="time_from" value="{{ old('time_from', $booking->time_from) }}" />
                     </div>
                     <div class="form-group">
@@ -60,7 +60,7 @@
                         <select class="form-control" name="status" id="status">
                                 <option value="0" {{ $booking->status == 0 ? 'selected' : null }} >Created</option>
                                 <option value="1" {{ $booking->status == 1 ? 'selected' : null }} >Completed</option>
-                                <option value="2" {{ $booking->status == 2 ? 'selected' : null }} >Concelled</option>
+                                <option value="2" {{ $booking->status == 2 ? 'selected' : null }} >Canceled</option>
                         </select>
                     </div>
                     <button type="submit" class="btn btn-primary btn-block">{{ __('Save') }}</button>

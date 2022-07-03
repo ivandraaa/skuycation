@@ -34,8 +34,8 @@
                                 <th>No</th>
                                 <th>Customer</th>
                                 <th>Room</th>
-                                <th>Time From</th>
-                                <th>Time To</th>
+                                <th>Waktu Check In</th>
+                                <th>Waktu Check Out</th>
                                 <th>Status</th>
                                 <th>Action</th>
                             </tr>

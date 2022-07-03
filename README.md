@@ -2,7 +2,7 @@
 
 ## Screenshots
 
-![preview img](/preview.png)
+![preview img](/calender.jpg)
 
 ## Run Locally
 

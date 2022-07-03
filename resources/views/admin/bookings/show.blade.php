@@ -26,14 +26,14 @@
                         </tr>
                         <tr>
                             <th>price</th>
-                            <td>${{ $booking->room->price }}</td>
+                            <td>Rp.{{ $booking->room->price }}</td>
                         </tr>
                         <tr>
-                            <th>time from</th>
+                            <th>waktu check in</th>
                             <td>{{ $booking->time_from }}</td>
                         </tr>
                         <tr>
-                            <th>time to</th>
+                            <th>waktu check out</th>
                             <td>{{ $booking->time_to }}</td>
                         </tr>
                         <tr>

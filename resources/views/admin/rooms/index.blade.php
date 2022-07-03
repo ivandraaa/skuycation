@@ -48,7 +48,7 @@
                                 </td>
                                 <td>{{ $loop->iteration }}</td>
                                 <td>{{ $room->room_number }}</td>
-                                <td>${{ $room->price }}</td>
+                                <td>Rp.{{ $room->price }}</td>
                                 <td>{{ $room->capacity }}</td>
                                 <td>{{ $room->floor }}</td>
                                 <td>{{ $room->category->name }}</td>
